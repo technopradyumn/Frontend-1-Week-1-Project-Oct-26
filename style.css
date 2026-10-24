@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1,
+h2 {
+  display: inline-block;
+  margin: 0 0 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.intro {
+  border: 1px solid #222;
+  padding: 24px 48px 32px;
+}
+
+.intro p {
+  margin: 0 0 32px;
+}
+
+.images {
+  padding: 24px 24px 0;
+}
+
+.images img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 8px 0 16px;
+}
+
+.trivia {
+  padding: 24px;
+}
+
+.trivia ol {
+  margin: 16px 0 0;
+  padding-left: 32px;
+}
+
+.trivia li {
+  margin-bottom: 8px;
+}
